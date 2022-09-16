@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap');
+
+@font-face{
+    font-family:"DEADSECRETARYCyr" ;
+    src: url("../fonts/DEADSECRETARYCyr.woff2") format("woff2"), url("../fonts/DEADSECRETARYCyr.woff") format("woff");
+font-display: swap;
+font-weight: 400;
+font-style: normal;
+}
+@font-face{
+    font-family:"Lobster" ;
+    src: url("../fonts/Lobster.woff2") format("woff2"), url("../fonts/Lobster.woff") format("woff");
+font-display: swap;
+font-weight: 400;
+font-style: normal;
+}
+
+body{
+    font-family: "Roboto";
+}
+
+
+ h1,h2,h3,h4{
+    color: #531345;
+    font-size: 40px;
+    text-align: center;
+    margin: 15px;
+    text-transform: uppercase;
+    font-family:"DEADSECRETARYCyr"  ;
+ }
+ .top {
+}
+.list li {
+    font-size: 22px;
+    text-align: right;
+    padding:0 25px 15px 0;
+    text-decoration: underline;
+   text-shadow: 10px 10px 5px rgba(20, 96, 19, 0.2); ;
+color: aquamarine;
+font-family: "Lobster";
+}
+
+.wikipedia {
+    margin: 30px 0;
+    font-size: 22px;
+    color: #444141c9;
+}
+.wikipedia p{
+    padding: 15px;
+    text-decoration: overline;
+}
+.reviews {
+   margin-bottom: 30px; 
+}
+.reviews-numberone p {
+    font-size: 18px;
+    color: #77779f;
+    
+    line-height: 1;
+    padding: 15px;
+    width: 600px;
+}
+.reviews a{
+    color: red;
+    text-decoration: none;
+}
+.reviews-numbertwo {
+    color: bisque;
+    letter-spacing: 2;
+    line-height: 2;
+    font-size: 22;
+    
+}
+.reviews-numbertwo p {
+   padding-bottom: 15px; 
+}
+.reviews-numberthree {
+   color: #77779f;
+   line-height: 1.5;
+   font-weight: 700;
+
+}
+.reviews-numberthree p{
+    padding-bottom: 15px;
+}
+.last-message  {
+    text-decoration: line-through;
+    line-height: 2;
+    font-family:"Lobster" ;
+    text-shadow: 1 1 1 rgb(44, 41, 41);
+}
+.last-message a{
+    text-shadow: 2px 2px 5px rgb(131, 125, 125); 
+}
